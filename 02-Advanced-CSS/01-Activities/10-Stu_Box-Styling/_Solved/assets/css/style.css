@@ -77,7 +77,7 @@ footer {
 
 /* Added border-radius to match the card */
 .card header {
-  border-radius: 50px 50px 0px 0px;
+  border-radius: 50px 60px 0px 0px;
   padding: 20px;
 }
 
@@ -90,6 +90,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+
   main,
   nav {
     flex-direction: column;

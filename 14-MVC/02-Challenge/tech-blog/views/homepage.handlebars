@@ -1,0 +1,17 @@
+{{!-- homepage.handlebars --}}
+
+{{> layouts/main }}
+
+<div class="container">
+    <h1>Welcome to the Tech Blog</h1>
+    <div class="post-list">
+        {{#each posts}}
+            <div class="post">
+                <h2><a href="/post/{{this.id}}">{{this.title}}</a></h2>
+                <p>Posted by {{this.username}} on {{formatDate this.createdAt}}</p>
+            </div>
+        {{else}}
+            <p>No blog posts available. Please check back later!</p>
+        {{/each}}
+    </div>
+</div>

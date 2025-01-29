@@ -1,0 +1,17 @@
+{
+  "name": "employee-database-app",
+  "version": "1.0.0",
+  "description": "A command-line application to manage a company's employee database using Node.js, Inquirer, and MySQL2.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "inquirer": "^8.0.0",
+    "mysql2": "^3.12.0"
+  }
+}

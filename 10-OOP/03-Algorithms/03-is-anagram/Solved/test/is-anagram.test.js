@@ -1,7 +1,7 @@
 var expect = chai.expect;
 
 describe("isAnagram", function() {
-  it("should return true when given the strings 'abc` and `cba`", function() {
+  it("should return true when given the strings 'abc' and 'cba'", function() {
     var strA = "abc";
     var strB = "cba";
 
@@ -10,7 +10,7 @@ describe("isAnagram", function() {
     expect(result).to.eql(true);
   });
 
-  it("should return true when given the strings 'octagonal` and `tganoalc`", function() {
+  it("should return true when given the strings 'octagonal' and 'tganoalco'", function() {
     var strA = "octagonal";
     var strB = "tganoalco";
 
@@ -19,7 +19,7 @@ describe("isAnagram", function() {
     expect(result).to.eql(true);
   });
 
-  it("should return false when false the strings 'obsidian` and `danisboba`", function() {
+  it("should return false when given the strings 'obsidian' and 'danisboba'", function() {
     var strA = "obsidian";
     var strB = "danisboba";
 
@@ -28,7 +28,7 @@ describe("isAnagram", function() {
     expect(result).to.eql(false);
   });
 
-  it("should return false when false the strings 'targaryen` and `gratawyen`", function() {
+  it("should return false when given the strings 'targaryen' and 'gratawyen'", function() {
     var strA = "targaryen";
     var strB = "gratawyen";
 

@@ -4,13 +4,15 @@
 // You may not use the `indexOf`, `lastIndexOf` or `includes` methods
 
 var linearSearch = function(arr, target) {
+  // Loop through each element in the array
   for (var i = 0; i < arr.length; i++) {
     var currentNumber = arr[i];
 
+    // Check if the current element is equal to the target
     if (currentNumber === target) {
-      return i;
+      return i; // Return the index if found
     }
   }
 
-  return -1;
+  return -1; // Return -1 if the target is not found
 };

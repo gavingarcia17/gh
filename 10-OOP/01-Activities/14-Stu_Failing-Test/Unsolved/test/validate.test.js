@@ -1,5 +1,12 @@
-// TODO: Import the Validate class.
+const Validate = require('../validate');
 
-// TODO: Describe a testing suite for checking the functionality of the Validate class.
-
-// TODO: Write a test that asserts that isPassword() returns false when passed an empty string.
+describe('Validate', () => {
+  describe('isPassword', () => {
+    test('should return false for empty password', () => {
+      const validate = new Validate();
+      const str = '';
+      const result = validate.isPassword(str);
+      expect(result).toEqual(false);
+    });
+  });
+});

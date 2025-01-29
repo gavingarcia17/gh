@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "A brief description of your project",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
   "author": "Your Name",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "inquirer": "^12.3.2"
   }
 }

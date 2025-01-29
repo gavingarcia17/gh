@@ -10,6 +10,7 @@ describe("linearSearch", function() {
     var target = 3;
 
     var result = linearSearch(arr, target);
+    expect(result).to.not.be.undefined;
 
     expect(Array.prototype.indexOf.called).to.eql(false);
   });

@@ -1,5 +1,5 @@
 // Constructor Arithmetic is imported.
-const Arithmetic = require('../arithmetic.js');
+import Arithmetic from '../arithmetic.js';
 
 // A testing suite for Arithmetic is created.
 describe('Arithmetic', () => {

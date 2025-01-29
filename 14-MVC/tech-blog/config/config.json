@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "Gavingarcia17",
+    "password": "newpassword",
+    "database": "blog_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "Gavingarcia17",
+    "password": "newpassword",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "Gavingarcia17",
+    "password": "newpassword",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

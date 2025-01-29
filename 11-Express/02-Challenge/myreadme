@@ -1,0 +1,25 @@
+# Note Taker
+
+## Description
+
+Note Taker is a simple and intuitive web application designed to help you organize your thoughts and ideas. With Note Taker, you can create, view, edit, and delete notes effortlessly. The application supports Markdown for rich text formatting and offers features like search, drag-and-drop reordering, and theme switching to enhance your note-taking experience.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Installation
+
+To get started with Note Taker, follow these steps:
+
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/your-username/note-taker.git
+   cd note-taker

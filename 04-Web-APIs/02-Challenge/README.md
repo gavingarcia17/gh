@@ -1,12 +1,18 @@
-# 04 Web APIs: Code Quiz
+# Coding Quiz Challenge
 
-## Your Task
+## Description
 
-At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
+This project is a timed coding quiz application focused on JavaScript fundamentals. The quiz includes multiple-choice questions and dynamically updates the HTML and CSS using JavaScript. The application features a clean, polished, and responsive user interface. Users can start the quiz, answer questions, and save their high scores.
 
-To help familiarize you with these tests and allow you to use the skills covered in this module, this Challenge invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. 
+## Table of Contents
 
-This week’s coursework will equip you with all the skills you need to succeed in this assignment.
+- [Description](#description)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Mock-Up](#mock-up)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
 
 ## User Story
 
@@ -38,60 +44,38 @@ The following animation demonstrates the application functionality:
 
 ![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/04-web-apis-homework-demo.gif)
 
-## Grading Requirements
+## Installation
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+To install and run this application locally, follow these steps:
 
-This Challenge is graded based on the following criteria: 
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd <project-directory>
+   ```
+3. Open `index.html` in your preferred web browser.
 
-### Technical Acceptance Criteria: 40%
+## Usage
 
-* Satisfies all of the preceding acceptance criteria.
+To use the application:
 
-### Deployment: 32%
+1. Open the application in your web browser.
+2. Click the "Start" button to begin the quiz.
+3. Answer the multiple-choice questions within the time limit.
+4. Save your initials and score at the end of the quiz.
 
-* Application deployed at live URL.
+## License
 
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Review
 
 You are required to submit BOTH of the following for review:
 
 * The URL of the functional, deployed application.
-
 * The URL of the GitHub repository, with a unique name and a readme describing the project.
 
 ---

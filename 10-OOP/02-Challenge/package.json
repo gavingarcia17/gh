@@ -1,0 +1,30 @@
+{
+  "name": "svg-logo-maker",
+  "version": "1.0.0",
+  "description": "A Node.js application that generates SVG logos.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "author": "Gavin Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^12.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-jest": "^27.5.0",
+    "jest": "^27.5.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "moduleFileExtensions": [
+      "js"
+    ]
+  }
+}

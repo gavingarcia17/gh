@@ -1,5 +1,16 @@
 var expect = chai.expect;
 
+function isUnique(arr) {
+  var seen = new Set();
+  for (var i = 0; i < arr.length; i++) {
+    if (seen.has(arr[i])) {
+      return false;
+    }
+    seen.add(arr[i]);
+  }
+  return true;
+}
+
 describe("isUnique", function() {
   it("should return true when given the array [2, 8, 7, 5, 4, 3]", function() {
     var arr = [2, 8, 7, 5, 4, 3];

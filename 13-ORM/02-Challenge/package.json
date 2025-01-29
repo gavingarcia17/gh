@@ -1,0 +1,21 @@
+{
+  "name": "ecommerce_db",
+  "version": "1.0.0",
+  "description": "Back end for an e-commerce website using Express.js and Sequelize",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "author": "",
+  "license": "ISC"
+}

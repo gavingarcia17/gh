@@ -1,5 +1,3 @@
-<!-- OPEN THIS FILE IN YOUR WEB BROWSER TO SEE THE TEST RESULTS
-DO NOT MODIFY THIS FILE -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,22 +7,18 @@ DO NOT MODIFY THIS FILE -->
     <title>Is Unique</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/mocha/9.0.0/mocha.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/mocha/10.0.0/mocha.min.css"
     />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/9.0.0/mocha.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/4.3.4/chai.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/sinon.js/11.1.1/sinon.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/10.0.0/mocha.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/4.3.6/chai.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sinon.js/13.0.0/sinon.min.js"></script>
   </head>
-  <!-- OPEN THIS FILE IN YOUR WEB BROWSER TO SEE THE TEST RESULTS
-DO NOT MODIFY THIS FILE -->
   <body>
     <div id="mocha"></div>
-    <script>
+    <script type="module">
+      import '../is-unique.js';
+      import './is-unique.test.js';
       mocha.setup('bdd');
-    </script>
-    <script src="is-unique.js"></script>
-    <script src="test/is-unique.test.js"></script>
-    <script>
       mocha.run();
     </script>
   </body>
